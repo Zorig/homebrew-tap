@@ -1,28 +1,28 @@
 class Valvefm < Formula
   desc "Terminal radio tuner with a vintage dial interface"
   homepage "https://github.com/zorig/valvefm"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/zorig/valvefm/releases/download/v#{version}/valvefm-macos-arm64"
-      sha256 "94c8d302ece51353e574e8887e1d1c1c3a892a7f96e13f782b24233a22b21241"
+      sha256 "1dce69c54a0f7086ca918a592854c15b4fe10c198ea267a8d7e662a78d659af6"
     end
     on_intel do
       url "https://github.com/zorig/valvefm/releases/download/v#{version}/valvefm-macos-amd64"
-      sha256 "a80a990ef7bd15338ffc8914f7d19ae5e2f8c9c69c1034cefe8c314d50478901"
+      sha256 "f22a84080c1be01f3919e53367e4a51ebeac8fdbb82929415602a5be33710811"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/zorig/valvefm/releases/download/v#{version}/valvefm-linux-arm64"
-      sha256 "a801605d6614417dc0d577532028bf4faa6fbaac65f83b413360cc67d5ba484d"
+      sha256 "a04411246099672de48693d8de0588bd0906163d2eaa3dd52913022a6aa57bc1"
     end
     on_intel do
       url "https://github.com/zorig/valvefm/releases/download/v#{version}/valvefm-linux-amd64"
-      sha256 "6aa8b7b1095d3f332e9c0b0f63d511012b5f2ba9c85c3b2a05046369b44d174e"
+      sha256 "96c5e8e888180fb775a5cd7f5e330e2a0e3919a33e2245976c489611667eeb79"
     end
   end
 
